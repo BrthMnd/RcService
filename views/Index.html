@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../assets/default/Normalize.css">
+    <link rel="stylesheet" href="../assets/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/js/bootstrap.min.js">
+    <link rel="shortcut icon" href="../assets/img/icons/RC_Service-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style_default.css">
+    <link rel="stylesheet" href="../assets/style/style__index.css">
+    <title>Inicio</title>
+</head>
+
+<body id="body">
+    <!-- El header tiene una altura de 70px por defecto-->
+    <header>
+        <div id="icons__menu">
+            <i class="fa-solid fa-bars" id="btn__open"></i>
+        </div>
+    </header>
+    <!-- el sidebar tiene un ancho de 80px por defecto  -->
+    <div class="menu__side" id="menu__side">
+        <div class="name__page">
+            <img src="../assets/img/icons/RC_Service-removebg-preview.png" width="90px" height="90px" alt="">
+        </div>
+        <div class="options__menu">
+            <a href="Index.html" class="selected">
+                <div class="option">
+                    <i class="fa-solid fa-house" title="Inicio"></i>
+                    <h5>Inicio</h5>
+                </div>
+            </a>
+            <a href="emplear.html">
+                <div class="option">
+                    <i class="fa-solid fa-file-contract" title="Contratos"></i>
+                    <h5>Contratacion</h5>
+                </div>
+            </a>
+            <a href="servicios.html">
+                <div class="option">
+                    <i class="fa-solid fa-screwdriver-wrench" title="Servicios"></i>
+                    <h5>Servicio</h5>
+                </div>
+            </a>
+            <a href="provedores.html">
+                <div class="option">
+                    <i class="fa-solid fa-person-digging" title="Provedores"></i>
+                    <h5>Provedores</h5>
+                </div>
+            </a>
+            <a href="ofertas.html">
+                <div class="option">
+                    <i class="fa-solid fa-shop" title="Ofertas"></i>
+                    <h5>Ofertas</h5>
+                </div>
+            </a>
+            <a href="inmuebles.html">
+                <div class="option">
+                    <i class="fa-solid fa-house-circle-exclamation" title="Inmuebles"></i>
+                    <h5>Inmuebles</h5>
+                </div>
+            </a>
+            <a href="empleados.html">
+                <div class="option">
+                    <i class="fa-solid fa-user-tie" title="Empleados"></i>
+                    <h5>Empleados</h5>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- el carrusel tendra: -->
+    <section id="Carrusel">
+        <div id="carouselExampleCaptions" class="carousel slide Carrusel" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../assets/img/electricidad-arreglo-tomaccoriente-interruptor.png"
+                        class="d-block w-100 img-radio" style="height:550px ; border-radius: 20px;" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="Color"
+                            style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color:black;">
+                            Servicios
+                        </h1>
+                        <p class="Color"></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/electricidad-revision-red-electrica-casa.png"
+                        class="d-block w-100 img-radio" style="height:550px ; border-radius: 20px;" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="Color"
+                            style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color:black;">
+                            Contratación</h1>
+                        <p class="Color"></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/cotizacion.png" class="d-block w-100 img-radio"
+                        style="height:550px ; border-radius: 20px;" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="Color"
+                            style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color:black;">
+                            Inmuebles</h1>
+                        <p class="Color"></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </section>
+
+
+
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/script_default.js"></script>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgba(255, 193, 7, var(--bs-bg-opacity, 1));
 }
 
@@ -13,12 +13,13 @@ body{
     justify-content: center;
     display: flex;
 }
-img{
+
+img {
     width: 100px;
     display: block;
     margin: auto;
-    border: 1px solid black;
 }
+
 #ingresar_login {
     margin-top: 20px;
     width: 230px;
@@ -26,39 +27,43 @@ img{
     padding-bottom: 40px;
     padding-left: 80px;
     padding-right: 80px;
-    background:white;
-    border:1px solid #d6d6d6;
-    box-shadow:0 3px 4px 0px rgba(0,0,0,0.25);
-    border-radius:10px;
+    background: white;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 3px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-.user{
+
+.user {
     background-image: url(/Img/ic_user.png);
     background-size: 20px;
     background-position: 7px 7px;
     background-repeat: no-repeat;
     outline: none;
-    border:0px solid #d6d6d6;
-    box-shadow:0 3px 0px 0px rgba(0,0,0,0.25);
+    border: 0px solid #d6d6d6;
+    box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.25);
     padding: 10px 30px;
     margin: 2%;
-    
-    
+
+
 }
-.pass{
+
+.pass {
     background-image: url(/Img/ic_pass.png);
     background-size: 20px;
     background-position: 7px 7px;
     background-repeat: no-repeat;
     outline: none;
-    border:0px solid #d6d6d6;
-    box-shadow:0 3px 0px 0px rgba(0,0,0,0.25);
+    border: 0px solid #d6d6d6;
+    box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.25);
     padding: 10px 30px;
     margin: 2%;
 }
-.boton{
+
+.boton {
     display: block;
     display: inline-flex;
     margin-top: 30px;
@@ -68,32 +73,37 @@ h1{
     text-decoration: none;
     background-color: rgba(255, 193, 7, var(--bs-bg-opacity, 1));
     border-radius: 3px;
-    
+
 }
-.ol_pass{
+
+.ol_pass {
     text-decoration: none;
     color: rgb(0, 0, 0);
     text-align: right;
 }
-.ol_pass:hover{
+
+.ol_pass:hover {
     color: royalblue;
 }
-.registrar{
+
+.registrar {
     text-decoration: none;
     color: rgb(0, 0, 0);
     text-align: center;
 }
-.registrar:hover{
+
+.registrar:hover {
     color: royalblue;
-    
+
 }
-#s_rol{
+
+#s_rol {
     background-image: url(/Img/rol.png);
     background-size: 16px;
     background-position: 3px 6px;
     background-repeat: no-repeat;
     outline: none;
-    border:1px solid #d6d6d6;
+    border: 1px solid #d6d6d6;
     padding: 5px 15px;
     margin: 2%;
 }
@@ -107,94 +117,102 @@ h1{
 
 
 
-#Registrar{
+#Registrar {
     justify-content: center;
     display: flex;
 }
-#Registrar_pro{
+
+#Registrar_pro {
     padding-top: 10px;
     width: 50%;
     padding-bottom: 100px;
     padding-left: 50px;
     padding-right: 50px;
-    background:white;
-    border:1px solid #d6d6d6;
-    box-shadow:0 3px 4px 0px rgba(0,0,0,0.25);
-    border-radius:10px;
+    background: white;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 3px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
-.name{
+
+.name {
     background-image: url(/Img/ic_user.png);
     background-size: 20px;
     background-position: 7px 7px;
     background-repeat: no-repeat;
     outline: none;
-    border:0px solid #d6d6d6;
-    box-shadow:0 3px 0px 0px rgba(0,0,0,0.25);
+    border: 0px solid #d6d6d6;
+    box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.25);
     padding: 10px 30px;
     margin: 2%;
     width: 80%;
 }
-.apel{
+
+.apel {
     background-image: url(/Img/ic_user.png);
     background-size: 20px;
     background-position: 7px 7px;
     background-repeat: no-repeat;
     outline: none;
-    border:0px solid #d6d6d6;
-    box-shadow:0 3px 0px 0px rgba(0,0,0,0.25);
+    border: 0px solid #d6d6d6;
+    box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.25);
     padding: 10px 30px;
     margin: 2%;
     width: 80%;
 }
-.mail{
+
+.mail {
     background-image: url(/Img/correo.png);
     background-size: 20px;
     background-position: 7px 7px;
     background-repeat: no-repeat;
     outline: none;
-    border:0px solid #d6d6d6;
-    box-shadow:0 3px 0px 0px rgba(0,0,0,0.25);
+    border: 0px solid #d6d6d6;
+    box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.25);
     padding: 10px 30px;
     margin: 2%;
     width: 80%;
 }
-.tell{
+
+.tell {
     background-image: url(/Img/telefono.png);
     background-size: 20px;
     background-position: 7px 7px;
     background-repeat: no-repeat;
     outline: none;
-    border:0px solid #d6d6d6;
-    box-shadow:0 3px 0px 0px rgba(0,0,0,0.25);
+    border: 0px solid #d6d6d6;
+    box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.25);
     padding: 10px 30px;
     margin: 2%;
     width: 80%;
 }
-.direc{
+
+.direc {
     background-image: url(/Img/direccion.png);
     background-size: 20px;
     background-position: 7px 7px;
     background-repeat: no-repeat;
     outline: none;
-    border:0px solid #d6d6d6;
-    box-shadow:0 3px 0px 0px rgba(0,0,0,0.25);
+    border: 0px solid #d6d6d6;
+    box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.25);
     padding: 10px 30px;
     margin: 2%;
     width: 80%;
 }
-.pass_r{
+
+.pass_r {
     background-image: url(/Img/ic_pass.png);
     background-size: 20px;
     background-position: 7px 7px;
     background-repeat: no-repeat;
     outline: none;
-    border:0px solid #d6d6d6;
-    box-shadow:0 3px 0px 0px rgba(0,0,0,0.25);
+    border: 0px solid #d6d6d6;
+    box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.25);
     padding: 10px 30px;
     margin: 2%;
     width: 80%;
 }
-.boton_r{
+
+.boton_r {
     display: block;
     display: inline-flex;
     margin-top: 30px;
@@ -204,24 +222,26 @@ h1{
     background-color: rgba(255, 193, 7, var(--bs-bg-opacity, 1));
     border-radius: 3px;
 }
-#s_servicio{
+
+#s_servicio {
     background-image: url(/Img/rol.png);
     background-size: 16px;
     background-position: 3px 6px;
     background-repeat: no-repeat;
     outline: none;
-    border:1px solid #d6d6d6;
+    border: 1px solid #d6d6d6;
     padding: 5px 15px;
     margin: 2%;
 }
-.cedula{
+
+.cedula {
     background-image: url(/Img/cedula.png);
     background-size: 20px;
     background-position: 7px 7px;
     background-repeat: no-repeat;
     outline: none;
-    border:0px solid #d6d6d6;
-    box-shadow:0 3px 0px 0px rgba(0,0,0,0.25);
+    border: 0px solid #d6d6d6;
+    box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.25);
     padding: 10px 30px;
     margin: 2%;
     width: 80%;
@@ -235,53 +255,54 @@ h1{
 ---------------------------------
 -------------------------------*/
 
-.c_habitaciones{
+.c_habitaciones {
     background-image: url(../Img/direccion.png);
     background-size: 20px;
     background-position: 7px 7px;
     background-repeat: no-repeat;
     outline: none;
-    border:0px solid #d6d6d6;
-    box-shadow:0 3px 0px 0px rgba(0,0,0,0.25);
+    border: 0px solid #d6d6d6;
+    box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.25);
     padding: 10px 30px;
     margin: 2%;
     width: 80%;
 }
-.ubicacion{
+
+.ubicacion {
     background-image: url(../Img/direccion.png);
     background-size: 20px;
     background-position: 7px 7px;
     background-repeat: no-repeat;
     outline: none;
-    border:0px solid #d6d6d6;
-    box-shadow:0 3px 0px 0px rgba(0,0,0,0.25);
+    border: 0px solid #d6d6d6;
+    box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.25);
     padding: 10px 30px;
     margin: 2%;
     width: 80%;
 }
-.tamaño{
+
+.tamaño {
     background-image: url(../Img/tamaño.png);
     background-size: 20px;
     background-position: 7px 7px;
     background-repeat: no-repeat;
     outline: none;
-    border:0px solid #d6d6d6;
-    box-shadow:0 3px 0px 0px rgba(0,0,0,0.25);
+    border: 0px solid #d6d6d6;
+    box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.25);
     padding: 10px 30px;
     margin: 2%;
     width: 80%;
 }
-.t_vivienda{
+
+.t_vivienda {
     background-image: url(../Img/t_vivienda.png);
     background-size: 20px;
     background-position: 7px 7px;
     background-repeat: no-repeat;
     outline: none;
-    border:0px solid #d6d6d6;
-    box-shadow:0 3px 0px 0px rgba(0,0,0,0.25);
+    border: 0px solid #d6d6d6;
+    box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.25);
     padding: 10px 30px;
     margin: 2%;
     width: 80%;
 }
-
-

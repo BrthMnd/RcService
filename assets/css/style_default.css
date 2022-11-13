@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+body {
+    margin-left: 80px;
+    transition: 1s;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(206, 202, 4);
+    display: flex;
+    align-items: center;
+    position: fixed;
+
+    transition: 1s;
+    top: 0;
+    z-index: 200;
+}
+
+#icons__menu {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    transform: translateX(10px);
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#icons__menu i {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+.menu__side {
+    transition: 1s;
+    width: 80px;
+    height: 100%;
+    background-color: rgb(206, 202, 4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.name__page {
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.options__menu {
+    padding: 20px 30px;
+    position: absolute;
+    top: 100px;
+}
+
+.options__menu a {
+    cursor: default;
+    color: rgb(224, 213, 213);
+    display: block;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: cursive;
+
+}
+
+.options__menu a:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+
+.option {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+
+.option h5 {
+    margin-left: 30px;
+}
+
+.option i {
+    justify-self: center;
+    width: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+a.selected {
+    color: white;
+}
+
+.selected::before {
+    content: '';
+    width: 3px;
+    height: 80%;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: -30px;
+
+
+}
+
+/*Para JavaScript*/
+.body__move {
+    transition: 0.5s;
+    margin-left: 250px;
+}
+
+.menu__side__move {
+    width: 250px;
+    transition: 0.5s;
+}
