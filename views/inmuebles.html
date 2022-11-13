@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../assets/js/bootstrap.min.js">
     <link rel="shortcut icon" href="../assets/img/icons/RC_Service-removebg-preview.png" type="image/x-icon">
     <link rel="stylesheet" href="../assets/css/style_default.css">
-    <link rel="stylesheet" href="../assets/style/style__contratacion.css">
+    <link rel="stylesheet" href="../assets/style/style__inmuebles.css">
     <title>Inicio</title>
 </head>
 
@@ -35,7 +35,7 @@
                     <h5>Inicio</h5>
                 </div>
             </a>
-            <a href="emplear.html" class="selected">
+            <a href="emplear.html">
                 <div class="option">
                     <i class="fa-solid fa-file-contract" title="Contratos"></i>
                     <h5>Contratacion</h5>
@@ -59,7 +59,7 @@
                     <h5>Ofertas</h5>
                 </div>
             </a>
-            <a href="inmuebles.html">
+            <a href="inmuebles.html" class="selected">
                 <div class="option">
                     <i class="fa-solid fa-house-circle-exclamation" title="Inmuebles"></i>
                     <h5>Inmuebles</h5>
@@ -75,103 +75,307 @@
 
     </div>
 
+    <div id="Contenedor">
 
-    <!-- <div id="Contenedor-1">
-        <section class="tablaPri">
-            <h3>has la busqueda:</h3>
-            <label for="">Identificacion :</label>
-            <div>
+        <section>
+            <div id="Contenedor-1">
+                <table id="tabla">
+                    <div id="espacio_busqueda">
+                        <div id="espacio_busqueda_buscar">
+                            <input type="text" placeholder="Buscar" id="Buscar" />
+                            <a href="#" class="boton">Buscar</a>
+                        </div>
+                        <div id="espacio_busqueda_iconos">
+                            <a href=""><i class="fa-solid fa-file-pen ico"></i></a>
+                            <a href=""><i class="fa-solid fa-user-plus ico"></i></a>
+                        </div>
+                    </div>
 
-                <input type="text" name="" value="">
-                <button>Buscar</button>
-            </div>
-            <h1 class="titPag2"></h1>
-            <div class="seccion2">
-
-                <table class="tabla">
-                    <tr class="fila">
-                        <th>Identificación</th>
-                        <th>Nombre y Apellido</th>
-                        <th>Servicio</th>
-                        <th>Ubicación</th>
-                        <th>Proceso</th>
+                    <tr id="Titulo">
+                        <th>Identificacion</th>
+                        <th>Propietario</th>
+                        <th>Direccion</th>
+                        <th>Estado</th>
+                        <th>Desabilitar/Habilitar</th>
+                        <th></th>
                     </tr>
-
-                    <tr class="fila">
-                        <td>109345</td>
-                        <td>Maria Surcos</td>
-                        <td>Electricista</td>
-                        <td>Poblado</td>
-                        <td><a class="btnContratar" href="Paginas/info_contratacion.html">info</a></td>
+                    <tr class="usuario">
+                        <td>5264305016</td>
+                        <td>Maria Anders</td>
+                        <td>CR82</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
                     </tr>
-
-                    <tr class="fila">
-                        <td>109345</td>
-                        <td>Maria Surcos</td>
-                        <td>Carpintero</td>
-                        <td>Poblado</td>
-                        <td><a class="btnContratar" href="Paginas/info_contratacion.html">info</a></td>
+                    <tr class="usuario">
+                        <td>4381116234</td>
+                        <td>Francisco Chang</td>
+                        <td>CR48</td>
+                        <td>Desabilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
                     </tr>
-
-                    <tr class="fila">
-                        <td>109345</td>
-                        <td>Jhon Suarez</td>
-                        <td>Electricista</td>
-                        <td>Poblado</td>
-                        <td><a class="btnContratar" href="Paginas/info_contratacion.html">info</a></td>
+                    <tr class="usuario">
+                        <td>5264305016</td>
+                        <td>Maria Anders</td>
+                        <td>CR82</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
                     </tr>
-
-                    <tr class="fila">
-                        <td>109345</td>
-                        <td>Jhon Suarez</td>
-                        <td>Plomero</td>
-                        <td>Poblado</td>
-                        <td><a class="btnContratar" href="Paginas/info_contratacion.html">info</a></td>
+                    <tr class="usuario">
+                        <td>4381116234</td>
+                        <td>Francisco Chang</td>
+                        <td>CR48</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
                     </tr>
-
-                    <tr class="fila">
-                        <td>109345</td>
-                        <td>Jhon Suarez</td>
-                        <td>Manejo CAT</td>
-                        <td>Poblado</td>
-                        <td><a class="btnContratar" href="Paginas/info_contratacion.html">info</a></td>
                     </tr>
-
-                    <tr class="fila">
-                        <td>109345</td>
-                        <td>Carlos Suarez</td>
-                        <td>Todero</td>
-                        <td>Poblado</td>
-                        <td><a class="btnContratar" href="Paginas/info_contratacion.html">info</a></td>
+                    <tr class="usuario">
+                        <td>5264305016</td>
+                        <td>Maria Anders</td>
+                        <td>CR82</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
                     </tr>
-
-                    <tr class="fila">
-                        <td>109345</td>
-                        <td>Carlos Suarez</td>
-                        <td>Todero</td>
-                        <td>Poblado</td>
-                        <td><a class="btnContratar" href="Paginas/info_contratacion.html">info</a></td>
+                    <tr class="usuario">
+                        <td>4381116234</td>
+                        <td>Francisco Chang</td>
+                        <td>CR48</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
                     </tr>
-
-                    <tr class="fila">
-                        <td>109345</td>
-                        <td>Carlos Suarez</td>
-                        <td>Todero</td>
-                        <td>Poblado</td>
-                        <td><a class="btnContratar" href="Paginas/info_contratacion.html">info</a></td>
                     </tr>
-
-                    <tr class="fila">
-                        <td>109345</td>
-                        <td>Carlos Suarez</td>
-                        <td>Todero</td>
-                        <td>Poblado</td>
-                        <td><a class="btnContratar" href="Paginas/info_contratacion.html">info</a></td>
+                    <tr class="usuario">
+                        <td>5264305016</td>
+                        <td>Maria Anders</td>
+                        <td>CR82</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
                     </tr>
+                    <tr class="usuario">
+                        <td>4381116234</td>
+                        <td>Francisco Chang</td>
+                        <td>CR44</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    </tr>
+                    <tr class="usuario">
+                        <td>5264305016</td>
+                        <td>Maria Anders</td>
+                        <td>CR71</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    <tr class="usuario">
+                        <td>4381116234</td>
+                        <td>Francisco Chang</td>
+                        <td>CR44</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    </tr>
+                    <tr class="usuario">
+                        <td>5264305016</td>
+                        <td>Maria Anders</td>
+                        <td>CR71</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    <tr class="usuario">
+                        <td>4381116234</td>
+                        <td>Francisco Chang</td>
+                        <td>CR44</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    </tr>
+                    <tr class="usuario">
+                        <td>5264305016</td>
+                        <td>Maria Anders</td>
+                        <td>CR71</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    <tr class="usuario">
+                        <td>4381116234</td>
+                        <td>Francisco Chang</td>
+                        <td>CR21</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    </tr>
+                    <tr class="usuario">
+                        <td>5264305016</td>
+                        <td>Maria Anders</td>
+                        <td>CR71</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    <tr class="usuario">
+                        <td>4381116234</td>
+                        <td>Francisco Chang</td>
+                        <td>CR21</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    </tr>
+                    <tr class="usuario">
+                        <td>5264305016</td>
+                        <td>Maria Anders</td>
+                        <td>CR71</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    <tr class="usuario">
+                        <td>4381116234</td>
+                        <td>Francisco Chang</td>
+                        <td>CR21</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    </tr>
+                    <tr class="usuario">
+                        <td>5264305016</td>
+                        <td>Maria Anders</td>
+                        <td>CR71</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    <tr class="usuario">
+                        <td>4381116234</td>
+                        <td>Francisco Chang</td>
+                        <td>CR21</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    </tr>
+                    <tr class="usuario">
+                        <td>5264305016</td>
+                        <td>Maria Anders</td>
+                        <td>CR71</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    <tr class="usuario">
+                        <td>4381116234</td>
+                        <td>luis Chang</td>
+                        <td>CR21</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    </tr>
+                    <tr class="usuario">
+                        <td>5264305016</td>
+                        <td>Maria sal</td>
+                        <td>CR71</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    <tr class="usuario">
+                        <td>4381116234</td>
+                        <td>Francisco Chang</td>
+                        <td>CR21</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    </tr>
+                    <tr class="usuario">
+                        <td>5264305016</td>
+                        <td>Maria Anders</td>
+                        <td>CR71</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    <tr class="usuario">
+                        <td>4381116234</td>
+                        <td>Francisco Chang</td>
+                        <td>CR21</td>
+                        <td>Habilitado</td>
+                        <td class="Iconos-organizar">
+                            <a href=""><i class="fa-solid fa-user-xmark"></i></a><a href=""><i
+                                    class="fa-solid fa-user-check"></i></a>
+                        </td>
+                    </tr>
+                    <!-- aqui termina -->
                 </table>
             </div>
+
         </section>
-    </div> -->
+    </div>
 
 
     <script src="../assets/js/script_default.js"></script>
